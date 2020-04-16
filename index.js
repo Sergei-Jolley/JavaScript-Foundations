@@ -42,7 +42,7 @@ let denominator = Math.pow((1 + monthlyInterestRate), periods) - 1;
 
 let monthlyRate = principal * (numerator / denominator);
 
-console.log(monthlyRate);
+// console.log(monthlyRate);
 
 
 // 🏡 Task 3: Function
@@ -50,7 +50,11 @@ console.log(monthlyRate);
 
 If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly rate is 1073.64"
 */
+function mortgageCalculator() {
+    console.log(`${name}, "your monthly rate is", ${monthlyRate}`);
+}
 
+mortgageCalculator();
 
 
 
